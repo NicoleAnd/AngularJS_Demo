@@ -8,7 +8,7 @@
 	<div>
 		<h2>What are your favorite sports?</h2>
 		<div ng-repeat="sport in ctrl.sports">
-			<label ng-bind="sport.selected"></label>
+			<label ng-bind="sport.label"></label>
 			<div>
 				With Binding:
 				<input type="checkbox" ng-model="sport.selected" ng-true-value="YES" ng-false-value="NO">
